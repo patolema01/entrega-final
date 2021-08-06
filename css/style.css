@@ -1,0 +1,568 @@
+@media only screen and (max-width: 2560px) {
+  header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo nav"; }
+    header div img {
+      grid-area: logo; }
+    header div ul {
+      grid-area: nav;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around; }
+  ul {
+    list-style: none; }
+    ul li {
+      text-decoration: none; }
+      ul li a {
+        text-decoration: none; }
+  #mainidx {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  main {
+    height: 100%; }
+    main h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+      main h1 a {
+        text-decoration: none; }
+  #maincart {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 400px 400px 400px 400px;
+    grid-template-areas: "card0 card1 card2" "card3 card4 card5" "card6 card7 card8" "card9 card10 card11";
+    justify-items: center;
+    align-items: center; }
+    #maincart #card0 {
+      grid-area: card0; }
+    #maincart #card1 {
+      grid-area: card1; }
+    #maincart #card2 {
+      grid-area: card2; }
+    #maincart #card3 {
+      grid-area: card3; }
+    #maincart #card4 {
+      grid-area: card4; }
+    #maincart #card5 {
+      grid-area: card5; }
+    #maincart #card6 {
+      grid-area: card6; }
+    #maincart #card7 {
+      grid-area: card7; }
+    #maincart #card8 {
+      grid-area: card8; }
+    #maincart #card9 {
+      grid-area: card9; }
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px;
+    grid-template-areas: "footer0 footer1" "footer2 footer2"; }
+    footer #divredes {
+      grid-area: footer0;
+      align-content: flex-start; }
+    footer #divcontacto {
+      grid-area: footer1;
+      justify-items: flex-end; }
+    footer #divfirma {
+      grid-area: footer2;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-row: 100%;
+      grid-area: "footer3 footer4 fooeter5";
+      padding: 0%;
+      margin: 0%;
+      justify-items: center;
+      align-items: flex-end; }
+      footer #divfirma .p {
+        text-align: center;
+        margin: 0%; } }
+
+@media only screen and (max-width: 1440px) {
+  header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo nav"; }
+    header div img {
+      grid-area: logo; }
+    header div ul {
+      grid-area: nav;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around; }
+  ul {
+    list-style: none; }
+    ul li {
+      text-decoration: none; }
+      ul li a {
+        text-decoration: none; }
+  #mainidx {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  main {
+    height: 100%; }
+    main h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+      main h1 a {
+        text-decoration: none; }
+  #maincart {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 400px 400px 400px 400px;
+    grid-template-areas: "card0 card1 card2" "card3 card4 card5" "card6 card7 card8" "card9 card10 card11";
+    justify-items: center;
+    align-items: center; }
+    #maincart #card0 {
+      grid-area: card0; }
+    #maincart #card1 {
+      grid-area: card1; }
+    #maincart #card2 {
+      grid-area: card2; }
+    #maincart #card3 {
+      grid-area: card3; }
+    #maincart #card4 {
+      grid-area: card4; }
+    #maincart #card5 {
+      grid-area: card5; }
+    #maincart #card6 {
+      grid-area: card6; }
+    #maincart #card7 {
+      grid-area: card7; }
+    #maincart #card8 {
+      grid-area: card8; }
+    #maincart #card9 {
+      grid-area: card9; }
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px;
+    grid-template-areas: "footer0 footer1" "footer2 footer2"; }
+    footer #divredes {
+      grid-area: footer0;
+      align-content: flex-start; }
+    footer #divcontacto {
+      grid-area: footer1;
+      justify-items: flex-end; }
+    footer #divfirma {
+      grid-area: footer2;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-row: 100%;
+      grid-area: "footer3 footer4 fooeter5";
+      padding: 0%;
+      margin: 0%;
+      justify-items: center;
+      align-items: flex-end; }
+      footer #divfirma .p {
+        text-align: center;
+        margin: 0%; } }
+
+@media only screen and (max-width: 1024px) {
+  header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo nav"; }
+    header div img {
+      grid-area: logo; }
+    header div ul {
+      grid-area: nav;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around; }
+  ul {
+    list-style: none; }
+    ul li {
+      text-decoration: none; }
+      ul li a {
+        text-decoration: none; }
+  main {
+    height: 100%; }
+    main h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+      main h1 a {
+        text-decoration: none; }
+  #mainidx {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  #maincart {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px 400px 400px;
+    grid-template-areas: "card0 card1" "card2 card3" "card4 card5" "card6 card7" "card8 card9";
+    justify-items: center;
+    align-items: center; }
+    #maincart #card0 {
+      grid-area: card0; }
+    #maincart #card1 {
+      grid-area: card1; }
+    #maincart #card2 {
+      grid-area: card2; }
+    #maincart #card3 {
+      grid-area: card3; }
+    #maincart #card4 {
+      grid-area: card4; }
+    #maincart #card5 {
+      grid-area: card5; }
+    #maincart #card6 {
+      grid-area: card6; }
+    #maincart #card7 {
+      grid-area: card7; }
+    #maincart #card8 {
+      grid-area: card8; }
+    #maincart #card9 {
+      grid-area: card9; }
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px;
+    grid-template-areas: "footer0 footer1" "footer2 footer2"; }
+    footer #divredes {
+      grid-area: footer0;
+      align-content: flex-start; }
+    footer #divcontacto {
+      grid-area: footer1;
+      justify-content: flex-end; }
+    footer #divfirma {
+      grid-area: footer2;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-row: 100%;
+      grid-area: "footer3 footer4 fooeter5";
+      padding: 0%;
+      margin: 0%;
+      justify-items: center;
+      align-items: flex-end; }
+      footer #divfirma .p {
+        text-align: center;
+        margin: 0%; } }
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo nav"; }
+    header div img {
+      grid-area: logo; }
+    header div ul {
+      grid-area: nav;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around; }
+  ul {
+    list-style: none; }
+    ul li {
+      text-decoration: none; }
+      ul li a {
+        text-decoration: none; }
+  main {
+    height: 100%; }
+    main h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+      main h1 a {
+        text-decoration: none; }
+  #mainidx {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  #maincart {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px 400px 400px;
+    grid-template-areas: "card0 card1" "card2 card3" "card4 card5" "card6 card7" "card8 card9";
+    justify-items: center;
+    align-items: center; }
+    #maincart #card0 {
+      grid-area: card0; }
+    #maincart #card1 {
+      grid-area: card1; }
+    #maincart #card2 {
+      grid-area: card2; }
+    #maincart #card3 {
+      grid-area: card3; }
+    #maincart #card4 {
+      grid-area: card4; }
+    #maincart #card5 {
+      grid-area: card5; }
+    #maincart #card6 {
+      grid-area: card6; }
+    #maincart #card7 {
+      grid-area: card7; }
+    #maincart #card8 {
+      grid-area: card8; }
+    #maincart #card9 {
+      grid-area: card9; }
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px;
+    grid-template-areas: "footer0 footer1" "footer2 footer2"; }
+    footer #divredes {
+      grid-area: footer0;
+      align-content: flex-start; }
+    footer #divcontacto {
+      grid-area: footer1;
+      justify-content: flex-end; }
+    footer #divfirma {
+      grid-area: footer2;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-row: 100%;
+      grid-area: "footer3 footer4 fooeter5";
+      padding: 0%;
+      margin: 0%;
+      justify-items: center;
+      align-items: flex-end; }
+      footer #divfirma .p {
+        text-align: center;
+        margin: 0%; } }
+
+@media only screen and (max-width: 425px) {
+  header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo nav"; }
+    header div img {
+      grid-area: logo; }
+    header div ul {
+      grid-area: nav;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+  ul {
+    list-style: none; }
+    ul li {
+      text-decoration: none; }
+      ul li a {
+        text-decoration: none; }
+  main {
+    height: 100%; }
+    main h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+      main h1 a {
+        text-decoration: none; }
+  #mainidx {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  #maincart {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
+    grid-template-areas: "card0" "card1" "card2" "card3" "card4" "card5" "card6" "card7" "card8" "card9";
+    justify-items: center;
+    align-items: center; }
+    #maincart #card0 {
+      grid-area: card0; }
+    #maincart #card1 {
+      grid-area: card1; }
+    #maincart #card2 {
+      grid-area: card2; }
+    #maincart #card3 {
+      grid-area: card3; }
+    #maincart #card4 {
+      grid-area: card4; }
+    #maincart #card5 {
+      grid-area: card5; }
+    #maincart #card6 {
+      grid-area: card6; }
+    #maincart #card7 {
+      grid-area: card7; }
+    #maincart #card8 {
+      grid-area: card8; }
+    #maincart #card9 {
+      grid-area: card9; }
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px;
+    grid-template-areas: "footer0 footer1" "footer2 footer2"; }
+    footer #divredes {
+      grid-area: footer0;
+      align-content: flex-start; }
+    footer #divcontacto {
+      grid-area: footer1;
+      justify-content: flex-end; }
+    footer #divfirma {
+      grid-area: footer2;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-row: 100%;
+      grid-area: "footer3 footer4 fooeter5";
+      padding: 0%;
+      margin: 0%;
+      justify-items: center;
+      align-items: flex-end; }
+      footer #divfirma .p {
+        text-align: center;
+        margin: 0%; } }
+
+@media only screen and (max-width: 375px) {
+  header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo nav"; }
+    header div img {
+      grid-area: logo; }
+    header div ul {
+      grid-area: nav;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+  ul {
+    list-style: none; }
+    ul li {
+      text-decoration: none; }
+      ul li a {
+        text-decoration: none; }
+  main {
+    height: 100%; }
+    main h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+      main h1 a {
+        text-decoration: none; }
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px;
+    grid-template-areas: "footer0 footer1" "footer2 footer2"; }
+    footer #divredes {
+      grid-area: footer0;
+      align-content: flex-start; }
+    footer #divcontacto {
+      grid-area: footer1;
+      justify-content: flex-end; }
+    footer #divfirma {
+      grid-area: footer2;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-row: 100%;
+      grid-area: "footer3 footer4 fooeter5";
+      padding: 0%;
+      margin: 0%;
+      justify-items: center;
+      align-items: flex-end; }
+      footer #divfirma .p {
+        text-align: center;
+        margin: 0%; } }
+
+@media only screen and (max-width: 320px) {
+  header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo nav"; }
+    header div img {
+      grid-area: logo; }
+    header div ul {
+      grid-area: nav;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+  ul {
+    list-style: none; }
+    ul li {
+      text-decoration: none; }
+      ul li a {
+        text-decoration: none; }
+  main {
+    height: 100%; }
+    main h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+      main h1 a {
+        text-decoration: none; }
+  #mainidx {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  #maincart {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
+    grid-template-areas: "card0" "card1" "card2" "card3" "card4" "card5" "card6" "card7" "card8" "card9";
+    justify-items: center;
+    align-items: center; }
+    #maincart #card0 {
+      grid-area: card0; }
+    #maincart #card1 {
+      grid-area: card1; }
+    #maincart #card2 {
+      grid-area: card2; }
+    #maincart #card3 {
+      grid-area: card3; }
+    #maincart #card4 {
+      grid-area: card4; }
+    #maincart #card5 {
+      grid-area: card5; }
+    #maincart #card6 {
+      grid-area: card6; }
+    #maincart #card7 {
+      grid-area: card7; }
+    #maincart #card8 {
+      grid-area: card8; }
+    #maincart #card9 {
+      grid-area: card9; }
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px;
+    grid-template-areas: "footer0 footer1" "footer2 footer2"; }
+    footer #divredes {
+      grid-area: footer0;
+      align-content: flex-start; }
+    footer #divcontacto {
+      grid-area: footer1;
+      justify-content: flex-end; }
+    footer #divfirma {
+      grid-area: footer2;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-row: 100%;
+      grid-area: "footer3 footer4 fooeter5";
+      padding: 0%;
+      margin: 0%;
+      justify-items: center;
+      align-items: center; }
+      footer #divfirma .p {
+        text-align: center;
+        margin: 0%; } }
